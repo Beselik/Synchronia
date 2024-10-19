@@ -10,7 +10,7 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.5;
     /* background-color: #14213d; */
-    color: #333;
+    color: #ffffff;
 }
 
 
@@ -98,7 +98,7 @@ h1 {
 /* footer  */
 footer {
     background-color: #333;
-    color: #835c5c;
+    color: #ffe1e1;
     text-align: center;
     padding: 4rem 0;
     position: relative;
