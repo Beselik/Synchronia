@@ -69,6 +69,10 @@ main {
     text-align: center;
 }
 
+#drop-area.drag-over {
+    background-color: #eee;
+}
+
 
 
 
