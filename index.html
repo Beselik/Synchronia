@@ -20,7 +20,24 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Demo</a></li>
-            <li><a href="upload.html">Upload Music</a></li>
+            <!-- file upload interface  -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@uploadcare/file-uploader@1/web/uc-file-uploader-regular.min.css">
+            <script type="module">
+              import * as UC from 'https://cdn.jsdelivr.net/npm/@uploadcare/file-uploader@1/web/uc-file-uploader-regular.min.js';
+              UC.defineComponents(UC);
+            </script>
+            
+            <uc-config 
+              ctx-name="my-uploader"
+              use-cloud-image-editor="false"
+              source-list="local, dropbox, gdrive"
+              pubkey="f8dc730981307db484e7">
+            </uc-config>
+            
+            <uc-file-uploader-regular
+              ctx-name="my-uploader"
+              class="uc-light">
+            </uc-file-uploader-regular>
         </ul>
     </nav>
 
