@@ -9,10 +9,17 @@ html, body {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.5;
-    background-color: #14213d;
+    /* background-color: #14213d; */
     color: #333;
 }
 
+
+
+body {
+    background-image: url("images/bg-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
@@ -50,9 +57,6 @@ nav ul li a:hover {
 }
 
 
-h1 {
-    text-align: center;
-}
 
 /* main  */
 main {
@@ -60,11 +64,21 @@ main {
     background-color: #fff;
 }
 
+
+h1 {
+    text-align: center;
+}
+
 .demo-vid {
     padding: 10%;
-    align-self: auto;
-    
+    align-self: auto;    
 }
+
+.ul-features, ul {
+    text-align: center;
+    list-style-type: none;
+}
+
 
 
 /* upload interface  */
@@ -80,10 +94,11 @@ main {
 }
 
 
+
 /* footer  */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #835c5c;
     text-align: center;
     padding: 4rem 0;
     position: relative;
